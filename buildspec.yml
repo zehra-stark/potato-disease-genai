@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "Build: Preparing for EC2"
+  post_build:
+    commands:
+      - echo "Post-build: Success"
+artifacts:
+  files:
+    - '**/*'
